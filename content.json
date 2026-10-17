@@ -1,0 +1,346 @@
+{
+  "zh": {
+    "lang": "zh-CN",
+    "brand": "复利闹钟",
+    "tagline": "少一点盯盘，多一点坚持。",
+    "hub": "隐私与协议",
+    "intro": "了解我们如何处理账号信息，以及你可以如何管理自己的数据。",
+    "operatorLabel": "服务提供者",
+    "operator": "北京晓目标科技有限公司",
+    "contactLabel": "联系邮箱",
+    "draft": "审核稿 · 尚未生效",
+    "draftNote": "本页供开发阶段审核。正式生效日期和公开发布状态将在上线前更新。",
+    "updated": "草稿更新：2026 年 10 月 18 日",
+    "version": "版本 0.1 · Android 海外测试版",
+    "skip": "跳到正文",
+    "home": "返回总览",
+    "toc": "本页内容",
+    "print": "打印或保存 PDF",
+    "otherLanguage": "English",
+    "read": "查看全文",
+    "contact": "联系支持",
+    "emailNote": "打开你选择的邮件应用，不会自动发送邮件。",
+    "scope": "适用范围：复利闹钟 Android 海外测试版的可选 Google 登录及本机提醒功能。国内微信登录和 iOS 账号认证不在本次接入范围。",
+    "facts": [
+      [
+        "提醒保存在本机",
+        "计划、金额、目标和提醒时刻，本版不上传到账号服务器。"
+      ],
+      [
+        "登录由你选择",
+        "创建与使用本机提醒不要求注册账号。"
+      ],
+      [
+        "登录只取基本资料",
+        "Google 登录用于识别账号，使用账号标识、邮箱及基本资料。"
+      ]
+    ],
+    "documents": {
+      "privacy": {
+        "title": "隐私政策",
+        "description": "收集哪些信息、为什么使用，以及如何管理。",
+        "summary": "Google 登录直接接入，本机提醒不上传。旧 Supabase 测试数据需另行处理。",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "1. 服务提供者",
+            "paragraphs": [
+              "复利闹钟（CompoundBell）由北京晓目标科技有限公司提供。隐私联系邮箱：yuliu0018@gmail.com。"
+            ]
+          },
+          {
+            "id": "section-2",
+            "title": "2. 本机提醒",
+            "paragraphs": [
+              "计划、名称、金额、目标和提醒时刻保存在手机。本版不向账号服务器上传这些内容。登录、退出和断开 Google 连接不会删除本机提醒。系统权限、设备策略、时间和日历覆盖会影响提醒。"
+            ]
+          },
+          {
+            "id": "section-3",
+            "title": "3. 可选 Google 登录",
+            "paragraphs": [
+              "你可以不登录而使用本机闹钟。选择登录时，应用通过 Google 官方登录组件读取 Google 账号标识、邮箱和姓名，用于展示身份。应用不请求通讯录、邮件或网盘权限，不接收 Google 密码，不把身份令牌写入计划数据库或日志。登录凭据由 Google 组件管理；应用在设备安全存储中仅记住你是否主动退出，以避免下次启动自动登录。"
+            ]
+          },
+          {
+            "id": "section-4",
+            "title": "4. Google 的处理",
+            "paragraphs": [
+              "Google 登录和 Google Play 可能处理设备、网络、账号和安全相关信息，具体以 Google 隐私政策和商店说明为准。你的 App 登录账号可能与 Google Play 购买账号不同。"
+            ]
+          },
+          {
+            "id": "section-5",
+            "title": "5. 支付",
+            "paragraphs": [
+              "当前没有开放会员商品或真实收费。购买接口已改为直接使用 Google Play；后续开放前会明确权益、当地价格、周期和续费规则。商店负责付款资料；本应用不收集银行卡号。购买状态将通过商店查询，并在设备核验购买签名，不与跨平台账号自动合并。"
+            ]
+          },
+          {
+            "id": "section-6",
+            "title": "6. 第三方后台与历史数据",
+            "paragraphs": [
+              "当前版本不再连接 Supabase 或 RevenueCat，未启用云同步、备份或统计服务。更新会尝试清理旧版存于本机的 Supabase 会话。此前测试创建的 Supabase 云端账号不会因此自动删除；如需删除历史测试账号，请通过上述邮箱联系。保留期限和历史删除结果仍需核实，不能视为已经完成。"
+            ]
+          },
+          {
+            "id": "section-7",
+            "title": "7. 你的选择",
+            "paragraphs": [
+              "你可以退出或选择“断开 Google 连接”撤销本应用的登录授权。这不会删除你的 Google 账号，也不会取消 Google Play 订阅。卸载应用可能移除本机计划；系统备份和设备设置可能影响本机数据的保留。你也可以通过联系邮箱提出隐私请求。"
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "title": "用户协议",
+        "description": "服务范围、提醒限制与账号使用规则。",
+        "summary": "当前测试版的使用范围、本机提醒与尚未开放的支付说明。",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "1. 适用范围",
+            "paragraphs": [
+              "本稿适用于北京晓目标科技有限公司提供的复利闹钟海外 Android 开发测试版。联系邮箱：yuliu0018@gmail.com。"
+            ]
+          },
+          {
+            "id": "section-2",
+            "title": "2. 提醒服务",
+            "paragraphs": [
+              "应用帮助你安排本机提醒，不自动交易，不提供个性化投资建议或收益保证。你自行决定是否交易以及交易内容。权限、系统限制、关机、时区和交易日历覆盖等因素可能影响提醒，请自行核对重要事项。"
+            ]
+          },
+          {
+            "id": "section-3",
+            "title": "3. 登录与数据",
+            "paragraphs": [
+              "Google 登录可选。当前版本不提供云同步、备份或跨平台会员共享；本机计划独立于登录身份。断开连接只撤销本应用的 Google 授权，不删除你的 Google 账号。"
+            ]
+          },
+          {
+            "id": "section-4",
+            "title": "4. 会员与支付",
+            "paragraphs": [
+              "当前未开放会员销售，不会在此版本内收取会员费用。未来开放前会展示明确权益、商店当地价格和周期；订阅将由 Google Play 管理。自动续费可在商店取消，卸载或退出应用不等于取消订阅，具体退款与账单规则以购买时适用的商店条款为准。"
+            ]
+          },
+          {
+            "id": "section-5",
+            "title": "5. 测试与反馈",
+            "paragraphs": [
+              "测试稿不代表生产服务或所有设备均已验收。请通过联系邮箱反馈问题，不要发送密码、验证码或银行卡资料。正式发布前会更新条款和生效日期。"
+            ]
+          }
+        ]
+      },
+      "deletion": {
+        "title": "账号删除",
+        "description": "删除云端账号与本机提醒，分别怎样处理。",
+        "summary": "断开 Google 连接、本机提醒与历史测试账号的处理方式。",
+        "sections": [
+          {
+            "id": "disconnect",
+            "title": "1. 断开 Google 连接",
+            "paragraphs": [
+              "在应用的账号管理页选择“断开 Google 连接”，撤销本应用的登录授权。不会删除你的 Google 账号、本机计划，也不会取消 Google Play 订阅。"
+            ]
+          },
+          {
+            "id": "historical",
+            "title": "2. 历史测试数据",
+            "paragraphs": [
+              "新版停止连接 Supabase，但此前测试账号可能仍在旧项目。请联系 yuliu0018@gmail.com 请求处理。真实删除结果及保留期限需另行核实，不因本次改版自动完成。"
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "联系支持",
+        "description": "反馈问题、咨询隐私或申请账号删除。",
+        "summary": "告诉我们遇到了什么，帮助我们更快定位问题。",
+        "sections": [
+          {
+            "id": "contact",
+            "title": "联系我们",
+            "paragraphs": [
+              "请发邮件到 yuliu0018@gmail.com，说明设备型号、系统版本、问题和复现步骤。不要发送密码、验证码或完整付款资料。本版尚未开放会员销售。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "en": {
+    "lang": "en",
+    "brand": "CompoundBell",
+    "tagline": "Less watching. More consistency.",
+    "hub": "Privacy & terms",
+    "intro": "Understand how account information is handled and how you can manage your data.",
+    "operatorLabel": "Service provider",
+    "operator": "北京晓目标科技有限公司",
+    "contactLabel": "Contact",
+    "draft": "Review draft · Not yet effective",
+    "draftNote": "Prepared for development review. The effective date and public release status will be updated before launch.",
+    "updated": "Draft updated: October 18, 2026",
+    "version": "Version 0.1 · Android global test build",
+    "skip": "Skip to content",
+    "home": "Back to overview",
+    "toc": "On this page",
+    "print": "Print or save as PDF",
+    "otherLanguage": "简体中文",
+    "read": "Read document",
+    "contact": "Contact support",
+    "emailNote": "Opens your email app. No message is sent automatically.",
+    "scope": "Scope: optional Google sign-in and on-device reminders in the Android global test build. WeChat sign-in for China and iOS account authentication are outside this integration.",
+    "facts": [
+      [
+        "Reminders stay on your phone",
+        "Plans, amounts, goals and reminder times are not uploaded to the account server in this version."
+      ],
+      [
+        "Signing in is optional",
+        "You can create and use local reminders without an account."
+      ],
+      [
+        "Basic account details only",
+        "Google sign-in uses an account identifier, email and basic profile to recognize your account."
+      ]
+    ],
+    "documents": {
+      "privacy": {
+        "title": "Privacy policy",
+        "description": "What information is used, why, and the choices you have.",
+        "summary": "Direct Google sign-in; reminders stay local. Earlier Supabase test data requires separate handling.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "1. Provider",
+            "paragraphs": [
+              "CompoundBell is provided by 北京晓目标科技有限公司. Privacy contact: yuliu0018@gmail.com."
+            ]
+          },
+          {
+            "id": "section-2",
+            "title": "2. Local reminders",
+            "paragraphs": [
+              "Plans, names, amounts, goals and reminder times stay on the phone. This build does not upload them to an account server. Signing in, signing out or disconnecting Google does not delete local reminders. System permissions, device policies, time settings and calendar coverage affect reminders."
+            ]
+          },
+          {
+            "id": "section-3",
+            "title": "3. Optional Google sign-in",
+            "paragraphs": [
+              "Local alarms work without signing in. If you choose to sign in, Google's official component provides an account identifier, email and name to display your identity. We do not request contacts, Gmail or Drive access, receive your Google password, or write identity tokens to plan storage or logs. Google components manage credentials. The app stores only an explicit sign-out preference in device secure storage to prevent automatic sign-in after you sign out."
+            ]
+          },
+          {
+            "id": "section-4",
+            "title": "4. Google's processing",
+            "paragraphs": [
+              "Google sign-in and Google Play may process device, network, account and security information under Google's privacy policy and store notices. Your app sign-in account may differ from your Google Play purchase account."
+            ]
+          },
+          {
+            "id": "section-5",
+            "title": "5. Purchases",
+            "paragraphs": [
+              "No membership products or real charges are available in this build. The purchase integration now uses Google Play directly. Benefits, local prices, billing periods and renewal rules will be disclosed before sales begin. The store handles payment details; the app does not collect card numbers. Purchase status will be queried from the store and purchase signatures checked on the device, without automatic cross-platform account linking."
+            ]
+          },
+          {
+            "id": "section-6",
+            "title": "6. Retired services and historical data",
+            "paragraphs": [
+              "This build no longer connects to Supabase or RevenueCat. Cloud sync, backup and analytics services are not enabled. Updates attempt to clear the old locally stored Supabase session. Supabase accounts created during earlier tests are not automatically deleted; contact the email above to request deletion of historical test data. Retention and deletion results still need verification and are not represented as completed."
+            ]
+          },
+          {
+            "id": "section-7",
+            "title": "7. Your choices",
+            "paragraphs": [
+              "Sign out or select Disconnect Google to revoke this app's sign-in access. This does not delete your Google Account or cancel a Google Play subscription. Uninstalling may remove local plans; OS backups and device settings can affect retention. Contact us with privacy requests."
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "title": "Terms of use",
+        "description": "Service scope, reminder limitations and account rules.",
+        "summary": "Scope, local reminders and payments that are not yet open in this test build.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "1. Scope",
+            "paragraphs": [
+              "This draft covers the international Android development build of CompoundBell, provided by 北京晓目标科技有限公司. Contact: yuliu0018@gmail.com."
+            ]
+          },
+          {
+            "id": "section-2",
+            "title": "2. Reminder service",
+            "paragraphs": [
+              "The app schedules local reminders. It does not trade automatically, provide personalized investment advice or guarantee returns. You decide whether and what to trade. Permissions, system restrictions, shutdowns, time zones and calendar coverage can affect reminders. Independently check important events."
+            ]
+          },
+          {
+            "id": "section-3",
+            "title": "3. Identity and data",
+            "paragraphs": [
+              "Google sign-in is optional. This build offers no cloud sync, backup or cross-platform membership sharing. Local plans are independent of sign-in identity. Disconnecting revokes this app's Google authorization; it does not delete your Google Account."
+            ]
+          },
+          {
+            "id": "section-4",
+            "title": "4. Membership and payments",
+            "paragraphs": [
+              "Membership sales are not open and this build does not charge membership fees. Before sales begin, benefits, local store prices and billing periods will be shown. Google Play will manage subscriptions. Cancel auto-renewal in the store; uninstalling or signing out does not cancel a subscription. Refunds and billing follow the store terms applicable to the purchase."
+            ]
+          },
+          {
+            "id": "section-5",
+            "title": "5. Testing and feedback",
+            "paragraphs": [
+              "A review build is not evidence of a production service or validation on every device. Send feedback to the contact email without passwords, verification codes or card details. Terms and the effective date will be updated before public release."
+            ]
+          }
+        ]
+      },
+      "deletion": {
+        "title": "Account deletion",
+        "description": "Manage your cloud account and local reminders separately.",
+        "summary": "Disconnect Google, manage local reminders and request historical test-account deletion.",
+        "sections": [
+          {
+            "id": "disconnect",
+            "title": "1. Disconnect Google",
+            "paragraphs": [
+              "Select Disconnect Google in account settings to revoke this app’s sign-in access. This does not delete your Google Account or local plans, or cancel Google Play subscriptions."
+            ]
+          },
+          {
+            "id": "historical",
+            "title": "2. Historical test data",
+            "paragraphs": [
+              "This build no longer connects to Supabase, but earlier test accounts may remain in the old project. Contact yuliu0018@gmail.com to request handling. Deletion results and retention need separate verification; this migration does not automatically delete them."
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "Contact support",
+        "description": "Report an issue, ask a privacy question or request deletion.",
+        "summary": "Tell us what happened so we can understand the issue.",
+        "sections": [
+          {
+            "id": "contact",
+            "title": "Contact us",
+            "paragraphs": [
+              "Email yuliu0018@gmail.com with device model, OS version, problem and reproduction steps. Do not send passwords, verification codes or full payment details. Membership sales are not open in this build."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
