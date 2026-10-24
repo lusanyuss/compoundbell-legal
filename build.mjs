@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const content = JSON.parse(await readFile(path.join(root, 'content.json'), 'utf8'));
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
-const email = 'yuliu0018@gmail.com';
+const email = 'lusanyuss@gmail.com';
 const ids = ['privacy', 'terms', 'deletion', 'support'];
 await mkdir(path.join(root, 'dist'), { recursive: true });
 for (const asset of ['styles.css', 'bell.svg']) {

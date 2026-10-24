@@ -2,16 +2,16 @@
   "zh": {
     "lang": "zh-CN",
     "brand": "复利闹钟",
-    "tagline": "少一点盯盘，多一点坚持。",
+    "tagline": "让每一次坚持，都有提醒。",
     "hub": "隐私与协议",
     "intro": "了解我们如何处理账号信息，以及你可以如何管理自己的数据。",
     "operatorLabel": "服务提供者",
     "operator": "北京晓目标科技有限公司",
     "contactLabel": "联系邮箱",
-    "draft": "审核稿 · 尚未生效",
-    "draftNote": "本页供开发阶段审核。正式生效日期和公开发布状态将在上线前更新。",
-    "updated": "草稿更新：2026 年 10 月 18 日",
-    "version": "版本 0.1 · Android 海外测试版",
+    "draft": "隐私与服务说明 · 2026年10月25日生效",
+    "draftNote": "适用于本版实际提供的功能；商店上架与具体设备能力以实际状态为准。",
+    "updated": "更新：2026年10月25日",
+    "version": "版本 1.0 · Android 海外版",
     "skip": "跳到正文",
     "home": "返回总览",
     "toc": "本页内容",
@@ -20,7 +20,7 @@
     "read": "查看全文",
     "contact": "联系支持",
     "emailNote": "打开你选择的邮件应用，不会自动发送邮件。",
-    "scope": "适用范围：复利闹钟 Android 海外测试版的可选 Google 登录及本机提醒功能。国内微信登录和 iOS 账号认证不在本次接入范围。",
+    "scope": "适用范围：复利闹钟 Android 海外版的可选 Google 登录及本机提醒功能。iOS 账号认证尚未开放。",
     "facts": [
       [
         "提醒保存在本机",
@@ -45,7 +45,7 @@
             "id": "section-1",
             "title": "1. 服务提供者",
             "paragraphs": [
-              "复利闹钟（CompoundBell）由北京晓目标科技有限公司提供。隐私联系邮箱：yuliu0018@gmail.com。"
+              "复利闹钟（CompoundBell）由北京晓目标科技有限公司提供。隐私联系邮箱：lusanyuss@gmail.com。"
             ]
           },
           {
@@ -95,20 +95,20 @@
       "terms": {
         "title": "用户协议",
         "description": "服务范围、提醒限制与账号使用规则。",
-        "summary": "当前测试版的使用范围、本机提醒与尚未开放的支付说明。",
+        "summary": "本机提醒、可选登录及尚未开放的支付说明。",
         "sections": [
           {
             "id": "section-1",
             "title": "1. 适用范围",
             "paragraphs": [
-              "本稿适用于北京晓目标科技有限公司提供的复利闹钟海外 Android 开发测试版。联系邮箱：yuliu0018@gmail.com。"
+              "本协议适用于北京晓目标科技有限公司提供的复利闹钟 Android 海外版。联系邮箱：lusanyuss@gmail.com。"
             ]
           },
           {
             "id": "section-2",
             "title": "2. 提醒服务",
             "paragraphs": [
-              "应用帮助你安排本机提醒，不自动交易，不提供个性化投资建议或收益保证。你自行决定是否交易以及交易内容。权限、系统限制、关机、时区和交易日历覆盖等因素可能影响提醒，请自行核对重要事项。"
+              "应用帮助你安排投资、用药、健身、学习及自定义习惯的本机提醒。交易日历只用于相关投资提醒，不自动交易，不提供个性化投资建议或收益保证。权限、系统限制、关机、时区和日历覆盖等因素可能影响提醒，请自行核对重要事项。"
             ]
           },
           {
@@ -127,9 +127,9 @@
           },
           {
             "id": "section-5",
-            "title": "5. 测试与反馈",
+            "title": "5. 支持与更新",
             "paragraphs": [
-              "测试稿不代表生产服务或所有设备均已验收。请通过联系邮箱反馈问题，不要发送密码、验证码或银行卡资料。正式发布前会更新条款和生效日期。"
+              "请通过联系邮箱反馈问题，不要发送密码、验证码或银行卡资料。功能或数据处理发生变化时，我们会更新相应说明。公开协议不代表所有设备或商店审核已经通过。"
             ]
           }
         ]
@@ -150,7 +150,7 @@
             "id": "historical",
             "title": "2. 历史测试数据",
             "paragraphs": [
-              "新版停止连接 Supabase，但此前测试账号可能仍在旧项目。请联系 yuliu0018@gmail.com 请求处理。真实删除结果及保留期限需另行核实，不因本次改版自动完成。"
+              "新版停止连接 Supabase，但此前测试账号可能仍在旧项目。请联系 lusanyuss@gmail.com 请求处理。真实删除结果及保留期限需另行核实，不因本次改版自动完成。"
             ]
           }
         ]
@@ -164,7 +164,7 @@
             "id": "contact",
             "title": "联系我们",
             "paragraphs": [
-              "请发邮件到 yuliu0018@gmail.com，说明设备型号、系统版本、问题和复现步骤。不要发送密码、验证码或完整付款资料。本版尚未开放会员销售。"
+              "请发邮件到 lusanyuss@gmail.com，说明设备型号、系统版本、问题和复现步骤。不要发送密码、验证码或完整付款资料。本版尚未开放会员销售。"
             ]
           }
         ]
@@ -174,16 +174,16 @@
   "en": {
     "lang": "en",
     "brand": "CompoundBell",
-    "tagline": "Less watching. More consistency.",
+    "tagline": "A reminder for every routine.",
     "hub": "Privacy & terms",
     "intro": "Understand how account information is handled and how you can manage your data.",
     "operatorLabel": "Service provider",
     "operator": "北京晓目标科技有限公司",
     "contactLabel": "Contact",
-    "draft": "Review draft · Not yet effective",
-    "draftNote": "Prepared for development review. The effective date and public release status will be updated before launch.",
-    "updated": "Draft updated: October 18, 2026",
-    "version": "Version 0.1 · Android global test build",
+    "draft": "Privacy & service terms · Effective October 25, 2026",
+    "draftNote": "These documents describe the features available in this version. Store availability and device capabilities depend on their actual status.",
+    "updated": "Updated: October 25, 2026",
+    "version": "Version 1.0 · International Android app",
     "skip": "Skip to content",
     "home": "Back to overview",
     "toc": "On this page",
@@ -192,7 +192,7 @@
     "read": "Read document",
     "contact": "Contact support",
     "emailNote": "Opens your email app. No message is sent automatically.",
-    "scope": "Scope: optional Google sign-in and on-device reminders in the Android global test build. WeChat sign-in for China and iOS account authentication are outside this integration.",
+    "scope": "Scope: optional Google sign-in and local reminders in the international Android app. iOS identity is not yet enabled.",
     "facts": [
       [
         "Reminders stay on your phone",
@@ -217,7 +217,7 @@
             "id": "section-1",
             "title": "1. Provider",
             "paragraphs": [
-              "CompoundBell is provided by 北京晓目标科技有限公司. Privacy contact: yuliu0018@gmail.com."
+              "CompoundBell is provided by 北京晓目标科技有限公司. Privacy contact: lusanyuss@gmail.com."
             ]
           },
           {
@@ -267,20 +267,20 @@
       "terms": {
         "title": "Terms of use",
         "description": "Service scope, reminder limitations and account rules.",
-        "summary": "Scope, local reminders and payments that are not yet open in this test build.",
+        "summary": "Local reminders, optional sign-in and payments that are not yet available.",
         "sections": [
           {
             "id": "section-1",
             "title": "1. Scope",
             "paragraphs": [
-              "This draft covers the international Android development build of CompoundBell, provided by 北京晓目标科技有限公司. Contact: yuliu0018@gmail.com."
+              "These terms cover the international Android app CompoundBell, provided by 北京晓目标科技有限公司. Contact: lusanyuss@gmail.com."
             ]
           },
           {
             "id": "section-2",
             "title": "2. Reminder service",
             "paragraphs": [
-              "The app schedules local reminders. It does not trade automatically, provide personalized investment advice or guarantee returns. You decide whether and what to trade. Permissions, system restrictions, shutdowns, time zones and calendar coverage can affect reminders. Independently check important events."
+              "The app schedules local reminders for investing, medication, fitness, learning and custom habits. Trading calendars apply only to relevant investing reminders. The app does not trade automatically, provide personalized investment advice or guarantee returns. Permissions, system restrictions, shutdowns, time zones and calendar coverage can affect reminders. Independently check important events."
             ]
           },
           {
@@ -299,9 +299,9 @@
           },
           {
             "id": "section-5",
-            "title": "5. Testing and feedback",
+            "title": "5. Support and updates",
             "paragraphs": [
-              "A review build is not evidence of a production service or validation on every device. Send feedback to the contact email without passwords, verification codes or card details. Terms and the effective date will be updated before public release."
+              "Send feedback to the contact email without passwords, verification codes or card details. We will update these documents when features or data processing change. Publication does not mean every device or store review has been completed."
             ]
           }
         ]
@@ -322,7 +322,7 @@
             "id": "historical",
             "title": "2. Historical test data",
             "paragraphs": [
-              "This build no longer connects to Supabase, but earlier test accounts may remain in the old project. Contact yuliu0018@gmail.com to request handling. Deletion results and retention need separate verification; this migration does not automatically delete them."
+              "This build no longer connects to Supabase, but earlier test accounts may remain in the old project. Contact lusanyuss@gmail.com to request handling. Deletion results and retention need separate verification; this migration does not automatically delete them."
             ]
           }
         ]
@@ -336,7 +336,7 @@
             "id": "contact",
             "title": "Contact us",
             "paragraphs": [
-              "Email yuliu0018@gmail.com with device model, OS version, problem and reproduction steps. Do not send passwords, verification codes or full payment details. Membership sales are not open in this build."
+              "Email lusanyuss@gmail.com with device model, OS version, problem and reproduction steps. Do not send passwords, verification codes or full payment details. Membership sales are not open in this build."
             ]
           }
         ]
