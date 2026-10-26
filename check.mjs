@@ -19,7 +19,11 @@ for (const file of pages) {
   const html = await readFile(file, 'utf8');
   assert(!/<script\b/i.test(html), `Unexpected script in ${file}`);
   assert(html.includes("script-src 'none'"));
-  assert(html.includes('北京晓目标科技有限公司'));
+  assert(html.includes('余柳'), `Missing individual provider in ${file}`);
+  assert(!html.includes('北京晓目标科技有限公司'), `Retired company provider in ${file}`);
+  assert(html.includes('lusanyuss@gmail.com'), `Missing privacy contact in ${file}`);
+  assert(html.includes('Recurring Alarm') || html.includes('循环闹钟'), `Missing app name in ${file}`);
+  assert(!html.includes('Google 登录可选') && !html.includes('当前未开放会员销售'), `Retired features in ${file}`);
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const url = match[1];
     if (/^(https:|mailto:)/.test(url)) continue;

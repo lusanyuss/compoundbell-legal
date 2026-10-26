@@ -47,4 +47,4 @@ const rootPage = (await readFile(path.join(root, 'dist/index.html'), 'utf8'))
   .replaceAll('href="./"', 'href="zh/"');
 await writeFile(path.join(root, 'dist/index.html'), rootPage.replace(/href="(privacy|terms|deletion|support)\/"/g, 'href="zh/$1/"'));
 await writeFile(path.join(root, 'dist/robots.txt'), 'User-agent: *\nDisallow: /\n');
-console.log('Built 11 bilingual, static review pages; no scripts or tracking dependencies.');
+console.log('Built 11 bilingual static legal pages; no scripts or tracking dependencies.');

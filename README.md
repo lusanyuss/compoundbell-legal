@@ -1,11 +1,12 @@
-# CompoundBell legal website
+# Recurring Alarm legal website
 
-复利闹钟 / CompoundBell 的中英文隐私政策、用户协议、断开连接及支持页面。
+循环闹钟 / Recurring Alarm 的中英文隐私政策、用户协议、数据管理与支持页面。
 
 - 网站：https://lusanyuss.github.io/compoundbell-legal/
-- 服务提供者：北京晓目标科技有限公司
-- 联系邮箱：yuliu0018@gmail.com
-- 当前为 Android 海外开发测试审核稿，正式生效日期及发布要求尚待确认。
+- 服务提供者：余柳（个人开发者）
+- 联系邮箱：lusanyuss@gmail.com
+- 政策版本 2.0，2026年10月26日生效；适用于 Android 应用 com.lusanyuss.compoundbell。
+- 内容覆盖无需 App 登录的本机提醒、AdMob、Google Play 一次性去广告，以及可选 Firebase 使用统计和崩溃诊断。
 
 本仓库只包含公开协议网站，不包含 App 源码、账号令牌或签名材料。
 网站由 GitHub 账号 `lusanyuss` 管理，使用 GitHub Pages，不依赖 GPT / Codex 账号。
