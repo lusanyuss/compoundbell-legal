@@ -8,7 +8,7 @@ const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('<', '&
 const email = 'lusanyuss@gmail.com';
 const ids = ['privacy', 'terms', 'deletion', 'support'];
 await mkdir(path.join(root, 'dist'), { recursive: true });
-for (const asset of ['styles.css', 'bell.svg']) {
+for (const asset of ['styles.css', 'bell.svg', 'alarm-review-api33.mp4']) {
   await copyFile(path.join(root, 'assets', asset), path.join(root, 'dist', asset));
 }
 await writeFile(path.join(root, 'dist/.nojekyll'), '');

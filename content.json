@@ -86,7 +86,7 @@
             "id": "section-5",
             "title": "5. 可选使用统计与崩溃诊断",
             "paragraphs": [
-              "「我的 → 使用情况与诊断」提供独立的使用统计和崩溃诊断选择，两项默认开启，可随时独立关闭；允许时由对应 Firebase Analytics 或 Crashlytics 采集。数据可包括应用安装实例标识、版本、设备及系统信息、有限功能事件、错误类型和诊断堆栈，用于分析功能使用和修复问题。",
+              "「我的 → 使用情况与诊断」提供独立的使用统计和崩溃诊断选择，两项默认开启，可随时独立关闭；允许时由对应 Firebase Analytics 或 Crashlytics 采集。数据可包括应用安装实例标识、版本、设备及系统信息、有限功能事件、错误类型和诊断堆栈，用于分析功能使用和修复问题。Firebase Analytics 还可能自动记录一次性去广告的购买事件，包括商品标识、名称和价格等交易统计。",
               "应用不将提醒标题、用药详情、金额、备注、密码或购买令牌作为这些统计与诊断的上报内容。关闭对应选择会停止新的采集，并请求删除尚未发送的崩溃报告；已经发送的数据不会被本机开关自动删除。广告 SDK 的处理不由这两个开关控制。"
             ],
             "links": [
@@ -340,7 +340,7 @@
             "id": "section-5",
             "title": "5. Optional usage analytics and crash reports",
             "paragraphs": [
-              "My → Usage and diagnostics provides independent usage analytics and crash-reporting choices. Both are on by default and can be turned off independently. While the relevant choice is enabled, Firebase Analytics or Crashlytics to process installation-instance identifiers, app version, device and system information, limited feature events, error types or diagnostic stacks to understand app use and fix problems.",
+              "My → Usage and diagnostics provides independent usage analytics and crash-reporting choices. Both are on by default and can be turned off independently. While the relevant choice is enabled, Firebase Analytics or Crashlytics processes installation-instance identifiers, app version, device and system information, limited feature events, error types or diagnostic stacks to understand app use and fix problems. Firebase Analytics may also automatically record one-time ad-removal purchase events, including product identifiers, names and prices for transaction analytics.",
               "The app does not submit reminder titles, medication details, amounts, notes, passwords or purchase tokens as analytics or crash-report content. Turning a choice off stops new collection and requests deletion of unsent crash reports; it does not automatically erase data already sent. These switches do not control the advertising SDK."
             ],
             "links": [
