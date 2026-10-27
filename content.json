@@ -8,10 +8,10 @@
     "operatorLabel": "服务提供者",
     "operator": "余柳（个人开发者）",
     "contactLabel": "联系邮箱",
-    "draft": "隐私与服务说明 · 2026年10月26日生效",
+    "draft": "隐私与服务说明 · 2026年10月27日更新",
     "draftNote": "由个人开发者余柳提供。适用于循环闹钟 Android 版的实际功能。",
-    "updated": "更新：2026年10月26日",
-    "version": "政策版本 2.0 · Android",
+    "updated": "更新：2026年10月27日",
+    "version": "政策版本 2.1 · Android",
     "skip": "跳到正文",
     "home": "返回总览",
     "toc": "本页内容",
@@ -86,7 +86,7 @@
             "id": "section-5",
             "title": "5. 可选使用统计与崩溃诊断",
             "paragraphs": [
-              "「我的 → 使用情况与诊断」提供独立的使用统计和崩溃诊断选择，两项默认关闭，开启后才允许对应 Firebase Analytics 或 Crashlytics 采集。数据可包括应用安装实例标识、版本、设备及系统信息、有限功能事件、错误类型和诊断堆栈，用于分析功能使用和修复问题。",
+              "「我的 → 使用情况与诊断」提供独立的使用统计和崩溃诊断选择，两项默认开启，可随时独立关闭；允许时由对应 Firebase Analytics 或 Crashlytics 采集。数据可包括应用安装实例标识、版本、设备及系统信息、有限功能事件、错误类型和诊断堆栈，用于分析功能使用和修复问题。",
               "应用不将提醒标题、用药详情、金额、备注、密码或购买令牌作为这些统计与诊断的上报内容。关闭对应选择会停止新的采集，并请求删除尚未发送的崩溃报告；已经发送的数据不会被本机开关自动删除。广告 SDK 的处理不由这两个开关控制。"
             ],
             "links": [
@@ -94,6 +94,13 @@
                 "Firebase 隐私与安全说明",
                 "https://firebase.google.com/support/privacy"
               ]
+            ]
+          },
+          {
+            "id": "feedback",
+            "title": "意见反馈与应用评价",
+            "paragraphs": [
+              "在「我的 → 意见反馈」主动提交时，应用会将反馈类型、文字内容、选填的联系邮箱，以及应用版本与构建号、手机型号、系统版本、界面语言和提交时间发送到 Google Firebase。Firebase 匿名身份仅用于保护和去重反馈，无需你注册或登录，不读取 Google 账号邮箱。匿名身份及网络信息也可能由 Google 为认证、安全和服务运行处理。反馈不会公开展示，也不会作为广告或统计事件发送。首版不上传图片、提醒计划或购买凭证；请勿在反馈中填写密码、验证码或支付信息。草稿保存在本机，提交后仅保留处理反馈与必要法定义务所需的时间。可通过 lusanyuss@gmail.com 联系开发者请求删除，并提供你提交时的联系信息或反馈内容供核对。「评价应用」会打开 Google Play，评价内容和公开范围由 Google Play 管理。"
             ]
           },
           {
@@ -255,10 +262,10 @@
     "operatorLabel": "Service provider",
     "operator": "余柳 (individual developer)",
     "contactLabel": "Contact",
-    "draft": "Privacy & service terms · Effective October 26, 2026",
+    "draft": "Privacy and service information · Updated October 27, 2026",
     "draftNote": "Provided by individual developer 余柳. Covers the features offered by the Android app Recurring Alarm.",
-    "updated": "Updated: October 26, 2026",
-    "version": "Policy version 2.0 · Android",
+    "updated": "Updated: October 27, 2026",
+    "version": "Policy version 2.1 · Android",
     "skip": "Skip to content",
     "home": "Back to overview",
     "toc": "On this page",
@@ -333,7 +340,7 @@
             "id": "section-5",
             "title": "5. Optional usage analytics and crash reports",
             "paragraphs": [
-              "My → Usage and diagnostics provides independent usage analytics and crash-reporting choices. Both are off by default. Enabling the relevant choice allows Firebase Analytics or Crashlytics to process installation-instance identifiers, app version, device and system information, limited feature events, error types or diagnostic stacks to understand app use and fix problems.",
+              "My → Usage and diagnostics provides independent usage analytics and crash-reporting choices. Both are on by default and can be turned off independently. While the relevant choice is enabled, Firebase Analytics or Crashlytics to process installation-instance identifiers, app version, device and system information, limited feature events, error types or diagnostic stacks to understand app use and fix problems.",
               "The app does not submit reminder titles, medication details, amounts, notes, passwords or purchase tokens as analytics or crash-report content. Turning a choice off stops new collection and requests deletion of unsent crash reports; it does not automatically erase data already sent. These switches do not control the advertising SDK."
             ],
             "links": [
@@ -341,6 +348,13 @@
                 "Firebase privacy and security",
                 "https://firebase.google.com/support/privacy"
               ]
+            ]
+          },
+          {
+            "id": "feedback",
+            "title": "Feedback and app reviews",
+            "paragraphs": [
+              "When you choose My → Send feedback and submit, the app sends the category, message, optional contact email, app version and build number, device model, OS version, interface language and submission time to Google Firebase. A Firebase anonymous identity protects feedback access and supports duplicate prevention; no registration or sign-in is required and the app does not read your Google account email. Google may also process anonymous identity and network information for authentication, security and service operation. Feedback is not public and is not submitted as advertising or analytics events. This version uploads no images, reminder plans or purchase evidence; do not include passwords, verification codes or payment information. Drafts are stored on your device. Submitted feedback is retained only as needed to handle the request and meet necessary legal obligations. Contact lusanyuss@gmail.com to request deletion, providing the contact information or feedback text you submitted for identification. Rate app opens Google Play, which manages review content and visibility."
             ]
           },
           {
